@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 metahuman.egg-info/PKG-INFO
 metahuman.egg-info/SOURCES.txt

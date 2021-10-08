@@ -18,7 +18,7 @@ setup(
     # url: 패키지 URL. 일반적으로 깃허브(GitHub) 또는 readthedocs URL에 해당합니다.
     # download_url : 해당 라이브러리의 실행 바이너리 다운 받는 주소. 오픈소소의 경우 대부분 깃헙의 archive주소를 설정한다.
     url='https://github.com/Rarero/metahuman',
-    download_url='https://github.com/Rarero/metahuman/archive/0.0.tar.gz',
+    download_url='https://github.com/Rarero/metahuman/archive/0.1.tar.gz',
 
     # 작성자 정보, 이름과 이메일
     author='Rarero',
@@ -35,8 +35,8 @@ setup(
     python_requires='>=3.5.5',
 
     # 해당 라이브러리를 사용하기 위해서 인스톨 되야하는 dependency들. 해당 라이브러리를 pip을 통해 인스톨 할때 이곳에 나열된 라이브러리들을 같이 인스톨 한다.
-    #      install_requires=["opencv-python>=4.5", "numpy>=1.14.0", "pandas>=0.23.4", "tqdm>=4.30.0", "gdown>=3.10.1", "Pillow>=5.2.0", "opencv-python>=3.4.4", "tensorflow>=1.9.0", "keras>=2.2.0", "Flask>=1.1.2", "mtcnn>=0.1.0", "retina-face>=0.0.1"]
-    install_requires=["opencv-python", "deepface"]
+    install_requires=["numpy>=1.14.0", "pandas>=0.23.4", "tqdm>=4.30.0", "gdown>=3.10.1", "Pillow>=5.2.0", "opencv-python>=3.4.4", "tensorflow>=1.9.0", "keras>=2.2.0", "Flask>=1.1.2", "mtcnn>=0.1.0", "retina-face>=0.0.1"]
+    #install_requires=["opencv-python", "deepface"]
 
     # classifiers: PYPI에 등록될 메타 데이터 설정이다. 예를 들어 서포트 하는 python 버젼 정보를 명시할수 있다. 하지만 이건 PYPI에 등록될 메타 데이터일 뿐이고 실제 빌드에는 영향을 주지 않는다. 이점 주의하자
 )
