@@ -1,0 +1,7 @@
+setup.py
+metahuman.egg-info/PKG-INFO
+metahuman.egg-info/SOURCES.txt
+metahuman.egg-info/dependency_links.txt
+metahuman.egg-info/not-zip-safe
+metahuman.egg-info/requires.txt
+metahuman.egg-info/top_level.txt
